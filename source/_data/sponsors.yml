@@ -1,14 +1,14 @@
 sponsors_block_title: "Thanks to our sponsors"
-main:
-  sponsor1:
-    name: "accenture"
-    logo_filename: "accenture.png"
-    site_url: "https://www.accenture.com/"
-# diamond:
+# main:
 #   sponsor1:
 #     name: ""
 #     logo_filename: ""
 #     site_url: ""
+diamond:
+  sponsor1:
+    name: "Bryntum"
+    logo_filename: "bryntum.svg"
+    site_url: "https://bryntum.com/"
 # platinum:
 #   sponsor1:
 #     name: ""
@@ -16,27 +16,23 @@ main:
 #     site_url: ""
 gold:
   sponsor1:
+    name: "Daruma"
+    logo_filename: "daruma.svg"
+    site_url: "http://www.darumahq.com/"
+  sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
 silver:
-  sponsor0:
-    name: "Daruma"
-    logo_filename: "daruma.svg"
-    site_url: "http://www.darumahq.com/"
-  sponsor4:
-    name: "Madisoft"
-    logo_filename: "madisoft.svg"
-    site_url: "https://labs.madisoft.it"
-  sponsor6:
-    name: "SiteGround"
-    logo_filename: "siteground.png"
-    site_url: "https://www.siteground.com/"
-bronze:
-  sponsor2:
-    name: "stickermule"
-    logo_filename: "stickermule.svg"
-    site_url: "https://mule.to/p2gc"
+  sponsor1:
+    name: "CentralReach"
+    logo_filename: "centralreach.svg"
+    site_url: "https://centralreach.com/"
+# bronze:
+#   sponsor2:
+#     name: ""
+#     logo_filename: ""
+#     site_url: ""
 # diversity:
 #   sponsor1:
 #     name: "S"

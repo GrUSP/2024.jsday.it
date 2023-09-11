@@ -13,7 +13,7 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://jsday-2024.eventbrite.it"
+  buy_tickets_url: "https://ti.to/grusp/jsday-2024/"
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
@@ -34,7 +34,7 @@ conference:
   countdown_hours: "hours"
   countdown_minutes: "minutes"
   countdown_seconds: "seconds"
-  ticket_button_visible: false
+  ticket_button_visible: true
   hero_buy_tickets_label: "Get your ticket"
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
@@ -47,11 +47,11 @@ conference:
   update_link_url: "https://google.com/"
   update_link_label: "link to google, just for the demo"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
-  cfp_open: false
+  cfp_open: true
   cfp_readmore_label: "Read more and apply"
   cfp_open_label: "Submissions accepted until"
   cfp_open_title: "Call For Papers Now Open!"
-  cfp_deadline: 2023-01-31
+  cfp_deadline: 2023-12-15T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
   # "general information" ("what is it?") component
@@ -100,7 +100,6 @@ conference:
   topics:
     - "Chrome Dev tools"
     - "Micro-frontends"
-    - "NodeJS"
     - "Web3"
     - "TypeScript"
     - "Astro"
@@ -119,20 +118,20 @@ conference:
   workshops_readmore_label: "Read more"
   workshops_register_label: "Register"
   # Media section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  media_visible: false
-  media_pic_1: ""
-  media_pic_2: ""
-  media_pic_3: ""
-  media_pic_4: ""
+  media_visible: true
+  media_pic_1: "jsday23-1.jpg"
+  media_pic_2: "lanyard.jpg"
+  media_pic_3: "jsday23-2.jpg"
+  media_pic_4: "sanmarco.png"
   #   playlist: if true, the iframe will be created. if false, it will not
-  media_video_playlist: false
+  media_video_playlist: true
   # if `media_video_is_youtube` is `true`, the relevant playlist will be embedded via "media_video_playlist". If it is `false`, the relevant Vimeo channel will be embedded via "media_vimeo_channel"
-  media_video_is_youtube: false
+  media_video_is_youtube: true
   youtube_base_url: "https://www.youtube.com/embed/videoseries?list="
   vimeo_base_url: "https://vimeo.com/showcase/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unkLg4R7_tnIfoyi0Wr-QPkD"
+  youtube_playlist_id: "PLWK9j6ps_unkBs_RYqpOOpAJHeB-wfzsV&si=sqKJofHa4gbJii2h"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "8639312"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden
@@ -145,7 +144,7 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   venue_img_credits: ""
   # Sponsors section in home page. set the first parameter to true to make it appear in home page, false means hidden
-  sponsors_visible: false
+  sponsors_visible: true
   sponsor_title_home: "Thanks to our amazing sponsors"
   # this is for the Community partners section in home page
   community_partners: true

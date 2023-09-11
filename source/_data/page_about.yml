@@ -15,8 +15,8 @@ more:
   content_2:
 past_edition:
   title: "Browse past editions of jsday"
-  video_url: "https://vimeo.com/showcase/8639312/embed"
-  video_caption: "Watch the videos from the past editions"
+  video_url: "https://www.youtube.com/embed/videoseries?si=sqKJofHa4gbJii2h&amp;list=PLWK9j6ps_unkBs_RYqpOOpAJHeB-wfzsV"
+  video_caption: "Watch the videos from the past editions - Videos from 2023 edition will be available in November 2023"
 team:
   title: "Our team"
   intro: ""
@@ -59,9 +59,9 @@ team:
       pic_filename: "daniel_yellow.jpg"
     member_10:
       name: "Francesco Mancini"
-      role: "Regia e Videor"
+      role: "Video Production"
       pic_filename: "francesco_yellow.jpg"
     member_11:
       name: "Giulia Tosato"
-      role: "Boss in Charge"
-      pic_filename: "giulia_yellow.jpg" 
+      role: "Event Manager"
+      pic_filename: "giulia_yellow.jpg"
