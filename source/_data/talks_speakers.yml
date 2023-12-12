@@ -42,10 +42,26 @@ speaker_3: &MihaelaRoxanaGhidersa
   speaker_linkedin_url: "https://www.linkedin.com/in/ghidersam/"
   is_mc: false
 
+speaker_4: &LucaMezzalira
+  speaker_in_speaker_lists: true
+  speaker_name: Luca Mezzalira
+  speaker_pic_filename: LucaMezzalira.png
+  speaker_role: "Principal Solutions Architect @ AWS"
+  speaker_bio: "Being associated with the industry since 2004, I have lent my expertise predominantly in the solution architecture field. I have gained accolades for revolutionising the scalability of frontend architectures with micro-frontends, from increasing the efficiency of workflows, to delivering quality in products. My colleagues know me as an excellent communicator who believes in using an interactive approach for understanding and solving problems of varied scopes.
+    <br />
+    I helped DAZN becoming a global streaming platform in just 5 years, now as Principal Architect at AWS, I'm helping our customers in the media and entertainment space to deliver cost-effective and scalable cloud solutions.
+    Moreover, I'm sharing with the community the best practices to develop cloud-native architectures solving technical and organizational challenges.
+    <br /><br />
+    My core industry knowledge has been instrumental in resolving complex architectural and integration challenges. Working within the scopes of a plethora of technical roles such as tech lead, solutions architect and CTO, I have developed a precise understanding of various technicalities which has helped me in maximizing value of my company and products in my current leadership roles. "
+  speaker_twitter_url: "https://twitter.com/lucamezzalira"
+  speaker_linkedin_url: "https://www.linkedin.com/in/lucamezzalira/"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_2: *LucaDelPuppo
   speaker_3: *MihaelaRoxanaGhidersa
+  speaker_4: *LucaMezzalira
 
 tracks:
   track_1: &track_1
@@ -137,7 +153,7 @@ days:
         speakers:
           speaker_2: *LucaDelPuppo
       
-      AIIntegrationForDevelopers:LeveragingChatGPTAndCopilotInYourLongTermProjects:
+      AIIntegrationForDevelopersLeveragingChatGPTAndCopilotInYourLongTermProjects:
         item_type: "talk"
         track: *track_1
         start_datetime: 2022-05-19T10:25+02:00
@@ -151,3 +167,16 @@ days:
         talk_video_url:
         speakers:
           speaker_3: *MihaelaRoxanaGhidersa
+
+
+      AWSLambdaPerformanceTuning:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-19T10:25+02:00
+        end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "AWS Lambda performance tuning"
+        talk_description: "Have you ever wonder how to get the best out of your Lambda functions? <br />
+If so, this talk will reveal the behind the scene one of the most popular serverless service and you will be exposed to a step by step guidance for optimizing your functions with live examples."
+        talk_video_url:
+        speakers:
+          speaker_4: *LucaMezzalira
