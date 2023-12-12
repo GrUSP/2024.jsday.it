@@ -17,8 +17,21 @@ speaker_1: &AashimaAhuja
   speaker_linkedin_url: "https://linkedin.com/in/aashimaahuja"
   is_mc: false
 
+speaker_2: &LucaDelPuppo
+  speaker_in_speaker_lists: true
+  speaker_name: Luca Del Puppo
+  speaker_pic_filename: LucaDelPuppo.png
+  speaker_role: "Senior Software Developer @ NearForm"
+  speaker_bio: "I'm a Senior Software Engineer, Microsoft MVP, Google Developer Expert and GitKraken Ambassador, I love JavaScript and TypeScript. 
+  <br />In my free time, I love to study new technologies or something about improving myself and do trail running in my love Dolomiti."
+  speaker_github_url: "https://github.com/Puppo/"
+  speaker_twitter_url: "https://twitter.com/puppo92"
+  speaker_linkedin_url: "https://www.linkedin.com/in/lucadelpuppo/"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
+  speaker_2: *LucaDelPuppo
 
 tracks:
   track_1: &track_1
@@ -91,3 +104,21 @@ days:
         talk_video_url:
         speakers:
           speaker_1: *AashimaAhuja
+
+
+      ExploringTheEnigmaticNavigatingJavaScriptsUnchartedRealms:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-19T10:25+02:00
+        end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Exploring the Enigmatic: Navigating JavaScript's Uncharted Realms"
+        talk_description: "Delve into the depths of advanced JavaScript features that often remain shrouded in mystery. Join us as we unravel the complexities of Symbols, WeakMap, WeakSet, and the art of Metaprogramming.
+        <br /><br />
+        In this session, we'll demystify Symbols, showcasing how they transcend traditional properties, enabling the creation of private and immutable members. WeakMap and WeakSet will take the stage, offering insights into memory management.
+        <br /><br />
+        Metaprogramming, the crown jewel of this journey, will empower you to transcend ordinary coding. Witness how code can be generated, modified, and customized programmatically, opening doors to efficient, dynamic, and elegant solutions.
+        <br /><br />
+        We aim to equip you with the knowledge to effectively wield these features, elevating your JavaScript prowess. Whether you're an aspiring developer or an experienced coder, join us in unravelling JavaScript's enigmatic potential."
+        talk_video_url:
+        speakers:
+          speaker_2: *LucaDelPuppo
