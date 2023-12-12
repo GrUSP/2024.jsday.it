@@ -70,10 +70,11 @@ speaker_5: &FahadHeylaal
 
 speakers:
   speaker_1: *AashimaAhuja
-  speaker_2: *LucaDelPuppo
-  speaker_3: *MihaelaRoxanaGhidersa
-  speaker_4: *LucaMezzalira
   speaker_5: *FahadHeylaal
+  speaker_3: *MihaelaRoxanaGhidersa
+  speaker_2: *LucaDelPuppo
+  speaker_4: *LucaMezzalira
+  
 
 tracks:
   track_1: &track_1
