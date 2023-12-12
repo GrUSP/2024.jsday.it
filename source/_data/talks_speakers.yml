@@ -29,9 +29,23 @@ speaker_2: &LucaDelPuppo
   speaker_linkedin_url: "https://www.linkedin.com/in/lucadelpuppo/"
   is_mc: false
 
+speaker_3: &MihaelaRoxanaGhidersa
+  speaker_in_speaker_lists: true
+  speaker_name: Mihaela-Roxana Ghidersa
+  speaker_pic_filename: MihaelaRoxanaGhidersa.png
+  speaker_role: "Technical Lead @ Signant Health"
+  speaker_bio: "Software engineer and technology passionate - I enjoy building and delivering quality while trying to have fun as much as possible.
+    <br /><br />
+    The desire to get out of my comfort zone led me to change the context from full-stack, frontend, and API design to technical leadership and architecture in the last few years.
+    "
+  speaker_twitter_url: "https://twitter.com/MihaelaGhidersa"
+  speaker_linkedin_url: "https://www.linkedin.com/in/ghidersam/"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_2: *LucaDelPuppo
+  speaker_3: *MihaelaRoxanaGhidersa
 
 tracks:
   track_1: &track_1
@@ -122,3 +136,18 @@ days:
         talk_video_url:
         speakers:
           speaker_2: *LucaDelPuppo
+      
+      AIIntegrationForDevelopers:LeveragingChatGPTAndCopilotInYourLongTermProjects:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-19T10:25+02:00
+        end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "AI Integration for Developers: Leveraging ChatGPT and Copilot in Your Long-Term Projects"
+        talk_description: "This presentation is tailored for developers to harness the potential of AI in their long-term software development projects. 
+        <br /><br />
+        It provides a comprehensive roadmap for integrating AI technologies, specifically ChatGPT and GitHub Copilot, into development workflows focusing on sustainability and long-term benefits. 
+        <br /><br />
+        Last, it explores the evolving landscape of AI-powered development tools and offers practical insights into incorporating them for enhanced productivity, code quality, and innovation."       
+        talk_video_url:
+        speakers:
+          speaker_3: *MihaelaRoxanaGhidersa
