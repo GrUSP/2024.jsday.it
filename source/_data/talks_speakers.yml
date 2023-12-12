@@ -57,11 +57,23 @@ speaker_4: &LucaMezzalira
   speaker_linkedin_url: "https://www.linkedin.com/in/lucamezzalira/"
   is_mc: false
 
+speaker_5: &FahadHeylaal
+  speaker_in_speaker_lists: true
+  speaker_name: Fahad Heylaal
+  speaker_pic_filename: FahadHeylaal.png
+  speaker_role: "Principal Engineer @ DAZN"
+  speaker_bio: "Creator of Featurevisor. Open Source enthusiast."
+  speaker_github_url: "https://github.com/fahad19"
+  speaker_twitter_url: "https://twitter.com/fahad19"
+  speaker_linkedin_url: "https://www.linkedin.com/in/fahad19/"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_2: *LucaDelPuppo
   speaker_3: *MihaelaRoxanaGhidersa
   speaker_4: *LucaMezzalira
+  speaker_5: *FahadHeylaal
 
 tracks:
   track_1: &track_1
@@ -180,3 +192,14 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_4: *LucaMezzalira
+
+      FeatureManagementForYourJavaScriptApplications:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2022-05-19T10:25+02:00
+        end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Feature management for your JavaScript applications"
+        talk_description: "Learn about the practice of feature management for continuous software delivery, why it's important, how to adopt it in your JavaScript applications for better collaboration across teams."
+        talk_video_url:
+        speakers:
+          speaker_5: *FahadHeylaal
