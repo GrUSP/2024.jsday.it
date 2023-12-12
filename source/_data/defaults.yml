@@ -50,7 +50,7 @@ conference:
   cfp_open: true
   cfp_readmore_label: "Read more and apply"
   cfp_open_label: "Submissions accepted until"
-  cfp_open_title: "Call For Papers Now Open!"
+  cfp_open_title: "Call For Papers Now Open!""
   cfp_deadline: 2023-12-15T23:59+01:00
   cfp_register_label: "Apply now"
   cfp_register_aria_label: "Apply now to our Call for Papers"
@@ -89,7 +89,7 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Information about Mailchimp's privacy policy"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  speakers_visible: false
+  speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
   speaker_count_text: ""
