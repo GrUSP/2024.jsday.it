@@ -30,14 +30,14 @@
   </url>
   
   <url>
-    <loc>https://2024.jsday.it/welcome/index.html</loc>
+    <loc>https://2024.jsday.it/talks_speakers/index.html</loc>
     
     <lastmod>2023-12-12</lastmod>
     
   </url>
   
   <url>
-    <loc>https://2024.jsday.it/talks_speakers/index.html</loc>
+    <loc>https://2024.jsday.it/welcome/index.html</loc>
     
     <lastmod>2023-12-12</lastmod>
     
@@ -51,14 +51,7 @@
   </url>
   
   <url>
-    <loc>https://2024.jsday.it/workshop/front-end-testing.html</loc>
-    
-    <lastmod>2023-12-12</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://2024.jsday.it/welcome/coc.html</loc>
+    <loc>https://2024.jsday.it/welcome/where.html</loc>
     
     <lastmod>2023-12-12</lastmod>
     
@@ -72,6 +65,13 @@
   </url>
   
   <url>
+    <loc>https://2024.jsday.it/welcome/coc.html</loc>
+    
+    <lastmod>2023-12-12</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://2024.jsday.it/welcome/scholarships.html</loc>
     
     <lastmod>2023-12-12</lastmod>
@@ -79,7 +79,7 @@
   </url>
   
   <url>
-    <loc>https://2024.jsday.it/welcome/where.html</loc>
+    <loc>https://2024.jsday.it/workshop/front-end-testing.html</loc>
     
     <lastmod>2023-12-12</lastmod>
     
