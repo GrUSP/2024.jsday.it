@@ -15,10 +15,6 @@ diamond:
 #     logo_filename: ""
 #     site_url: ""
 gold:
-  sponsor1:
-    name: "Daruma"
-    logo_filename: "daruma.svg"
-    site_url: "http://www.darumahq.com/"
   sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
@@ -28,11 +24,15 @@ silver:
     name: "CentralReach"
     logo_filename: "centralreach.svg"
     site_url: "https://centralreach.com/"
-# bronze:
-#   sponsor2:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+  sponsor2:
+    name: "Daruma"
+    logo_filename: "daruma.svg"
+    site_url: "http://www.darumahq.com/"
+bronze:
+  sponsor2:
+    name: "Stickermule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://www.stickermule.com/it/adesivi-personalizzati"
 # diversity:
 #   sponsor1:
 #     name: "S"
