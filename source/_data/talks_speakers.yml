@@ -9,8 +9,8 @@ speaker_1: &AashimaAhuja
   speaker_name: Aashima Ahuja
   speaker_pic_filename: AashimaAhuja.png
   speaker_role: "Senior Frontend engineer @ Fareharbor"
-  speaker_bio: "I am working as a senior frontend engineer at Fareharbor. Before that i was working at Meta as a UI engineer. I am passionate about web. I have been working on React for over 5 years. I believe knowledge grows with sharing and i like to share mine with others. 
-  <br />In my free time i also create frontend videos. Apart from frontend, i am passionate about music. 
+  speaker_bio: "I am working as a senior frontend engineer at Fareharbor. Before that i was working at Meta as a UI engineer. I am passionate about web. I have been working on React for over 5 years. I believe knowledge grows with sharing and i like to share mine with others.
+  <br />In my free time i also create frontend videos. Apart from frontend, i am passionate about music.
   <br />I play guitar and also pursuing my vocals training"
   speaker_github_url: "https://github.com/AashimaAhuja"
   speaker_twitter_url: "@aashimaahuja22"
@@ -22,7 +22,7 @@ speaker_2: &LucaDelPuppo
   speaker_name: Luca Del Puppo
   speaker_pic_filename: LucaDelPuppo.png
   speaker_role: "Senior Software Developer @ NearForm"
-  speaker_bio: "I'm a Senior Software Engineer, Microsoft MVP, Google Developer Expert and GitKraken Ambassador, I love JavaScript and TypeScript. 
+  speaker_bio: "I'm a Senior Software Engineer, Microsoft MVP, Google Developer Expert and GitKraken Ambassador, I love JavaScript and TypeScript.
   <br />In my free time, I love to study new technologies or something about improving myself and do trail running in my love Dolomiti."
   speaker_github_url: "https://github.com/Puppo/"
   speaker_twitter_url: "https://twitter.com/puppo92"
@@ -74,7 +74,7 @@ speakers:
   speaker_3: *MihaelaRoxanaGhidersa
   speaker_2: *LucaDelPuppo
   speaker_4: *LucaMezzalira
-  
+
 
 tracks:
   track_1: &track_1
@@ -138,8 +138,8 @@ days:
       PerformanceWinsWithReact18:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Performance wins with React 18"
         talk_description: "React 18! Concurrent features! You might’ve already tried the new APIs like useTransition, or you might’ve just heard of them. But do you know how you can improve your application performance by using React 18 concurrency features?
 <br />The talk will focus on improving app performance using React 18 concurrent features.
@@ -152,8 +152,8 @@ days:
       ExploringTheEnigmaticNavigatingJavaScriptsUnchartedRealms:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Exploring the Enigmatic: Navigating JavaScript's Uncharted Realms"
         talk_description: "Delve into the depths of advanced JavaScript features that often remain shrouded in mystery. Join us as we unravel the complexities of Symbols, WeakMap, WeakSet, and the art of Metaprogramming.
         <br /><br />
@@ -165,18 +165,18 @@ days:
         talk_video_url:
         speakers:
           speaker_2: *LucaDelPuppo
-      
+
       AIIntegrationForDevelopersLeveragingChatGPTAndCopilotInYourLongTermProjects:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "AI Integration for Developers: Leveraging ChatGPT and Copilot in Your Long-Term Projects"
-        talk_description: "This presentation is tailored for developers to harness the potential of AI in their long-term software development projects. 
+        talk_description: "This presentation is tailored for developers to harness the potential of AI in their long-term software development projects.
         <br /><br />
-        It provides a comprehensive roadmap for integrating AI technologies, specifically ChatGPT and GitHub Copilot, into development workflows focusing on sustainability and long-term benefits. 
+        It provides a comprehensive roadmap for integrating AI technologies, specifically ChatGPT and GitHub Copilot, into development workflows focusing on sustainability and long-term benefits.
         <br /><br />
-        Last, it explores the evolving landscape of AI-powered development tools and offers practical insights into incorporating them for enhanced productivity, code quality, and innovation."       
+        Last, it explores the evolving landscape of AI-powered development tools and offers practical insights into incorporating them for enhanced productivity, code quality, and innovation."
         talk_video_url:
         speakers:
           speaker_3: *MihaelaRoxanaGhidersa
@@ -185,8 +185,8 @@ days:
       AWSLambdaPerformanceTuning:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "AWS Lambda performance tuning"
         talk_description: "Have you ever wonder how to get the best out of your Lambda functions? <br />
 If so, this talk will reveal the behind the scene one of the most popular serverless service and you will be exposed to a step by step guidance for optimizing your functions with live examples."
@@ -197,8 +197,8 @@ If so, this talk will reveal the behind the scene one of the most popular server
       FeatureManagementForYourJavaScriptApplications:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2022-05-19T10:25+02:00
-        end_datetime: 2022-05-19T11:05+02:00
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Feature management for your JavaScript applications"
         talk_description: "Learn about the practice of feature management for continuous software delivery, why it's important, how to adopt it in your JavaScript applications for better collaboration across teams."
         talk_video_url:
