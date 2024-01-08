@@ -13,7 +13,6 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Buy tickets"
-  buy_tickets_url: "https://ti.to/grusp/jsday-2024/"
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
@@ -157,6 +156,7 @@ conference:
   social_vimeo_url: "https://vimeo.com/channels/jsday"
   social_youtube_url: "https://www.youtube.com/c/grusp"
   social_instagram_url: "https://www.instagram.com/grusp_/"
+  social_mastodon_url: "https://phpc.social/@grusp"
 
   # 404
   back_to_home_label: "back to home page"
@@ -182,7 +182,7 @@ conference:
   past_editions_videos_mid: " and "
   past_editions_videos_youtube_label: "YouTube"
   past_editions_videos_post: "."
-  footer_copy_text: "is &copy; by Grusp and its awesome staff"
+  footer_copy_text: "is &copy; by <a href='https://www.grusp.org'>GrUSP</a> and its awesome staff"
   footer_contact_text: "Contact us at "
   footer_links_pre: "You can read our "
   footer_links_privacy_link_label: "privacy policy"
@@ -200,3 +200,6 @@ conference:
   # Google Tag Manager
   google:
     tag_manager_id: "GTM-M4L8PSK"
+  # Tito tickets
+  tito:
+    event: grusp/jsday-2024
