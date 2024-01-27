@@ -78,6 +78,18 @@ speaker_6: &MaurizioMangione
   speaker_linkedin_url: "https://www.linkedin.com/in/granze/"
   is_mc: false
 
+
+speaker_7: &MathildeBuenerd
+  speaker_in_speaker_lists: true
+  speaker_name: Mathilde Buenerd
+  speaker_pic_filename: MathildeBuenerd.png
+  speaker_role: "Senior Frontend developer @ Shopify"
+  speaker_bio: "I am a Frontend Developer at Shopify and a certified Web Accessibility Specialist.
+  <br />My expertise lies in creating complex user interfaces that are both user-friendly and compliant. 
+  <br />At Shopify, I develop No Code tools, enabling all users to effortlessly customize their Online Store."
+  speaker_linkedin_url: "https://www.linkedin.com/in/mathilde-buenerd/"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_5: *FahadHeylaal
@@ -85,6 +97,7 @@ speakers:
   speaker_2: *LucaDelPuppo
   speaker_4: *LucaMezzalira
   speaker_6: *MaurizioMangione
+  speaker_7: *MathildeBuenerd
 
 
 tracks:
@@ -228,3 +241,16 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_6: *MaurizioMangione
+
+      IAccessibility:WhyYouShouldLearnAboutWCAG:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Accessibility: Why You Should Learn About WCAG"
+        talk_description: "Despite being around since 1999, WCAG remains unfamiliar to many developers. We rely on documentation for nearly all aspects of our work, yet accessibility is often overlooked.
+        <br />However, it's important to recognize that WCAG, despite appearing complex, is simply another standard. 
+        <br />In this talk, we will go over the fundamental concepts of WCAG, and how they can be leveraged to design and develop a more inclusive web."
+        talk_video_url:
+        speakers:
+          speaker_7: *MathildeBuenerd
