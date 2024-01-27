@@ -127,6 +127,20 @@ speaker_10: &CraigSpence
   speaker_twitter_url: "https://twitter.com/phenomnominal"
   is_mc: false
 
+speaker_11: &LorenzoPieri
+  speaker_in_speaker_lists: true
+  speaker_name: Lorenzo Pieri
+  speaker_pic_filename: LorenzoPieri.png
+  speaker_role: "Full Stack Software Engineer @ Birdie"
+  speaker_bio: "It's never easy to describe oneself, especially when one is interested in so many different topics and fields and I guess that says something about who I am afterall. 
+  <br />I find it fun and entertaining to teach difficult subjects through exotic methods and stories and people seem to also have fun while I do so.
+   <br />
+  I believe in the union between science and human values (read fun) and I often work and participate in non-profit organization and projects which aim to bring culture and scientific knowledge."
+  speaker_twitter_url: "https://twitter.com/404answnotfound"
+  speaker_linkedin_url: "https://www.linkedin.com/in/lorenzopieri/"
+  speaker_github_url: "https://github.com/404answernotfound"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_5: *FahadHeylaal
@@ -138,6 +152,7 @@ speakers:
   speaker_8: *MarcoIppolito
   speaker_9: *ArisMarkogiannakis
   speaker_10: *CraigSpence
+  speaker_11: *LorenzoPieri
   
 
 
@@ -328,7 +343,7 @@ If so, this talk will reveal the behind the scene one of the most popular server
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: Craig's Amazing Rust Spectacular (brought to you by Rust-eze)"
+        talk_title: "Craig's Amazing Rust Spectacular (brought to you by Rust-eze)"
         talk_description: "Rust-eze is an American company owned by Dinoco. 
         <br />It sells medicated bumper ointment for cars with rusty bumpers, to eradicate rust. 
         <br />It was created by Rusty and Dusty Rust-eze and since then became recognized trademark in the United States.
@@ -342,3 +357,19 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_10: *CraigSpence
+
+
+      TheEventLoopFairytale:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "The event loop fairytale"
+        talk_description: "Are you intimidated by the Node.js event loop? No need! In this talk, we will demystify the event loop, step by step. Even if you're not a fan of asynchronous code, you'll learn to embrace it as we explore the inner workings of the event loop.
+        <br /><br />
+        Get ready to think async and join us as we take a deep dive into this powerful tool. You'll leave this talk feeling confident in your understanding of the event loop and ready to conquer even the most complex async tasks. Trust us, it's all part of the loop 😀
+        <br /><br />
+        See you on the next tick ;D"
+        talk_video_url:
+        speakers:
+          speaker_11: *LorenzoPieri
