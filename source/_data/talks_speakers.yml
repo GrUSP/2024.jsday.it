@@ -116,6 +116,17 @@ speaker_9: &ArisMarkogiannakis
   speaker_twitter_url: "https://twitter.com/arismarko"
   is_mc: false
 
+
+speaker_10: &CraigSpence
+  speaker_in_speaker_lists: true
+  speaker_name: Craig Spence
+  speaker_pic_filename: CraigSpence.png
+  speaker_role: "dork @ phenomnomnominal"
+  speaker_bio: "Craig is a Software Engineer from New Zealand, currently travelling the world, freelancing, teaching and consulting! 
+  <br />He's an Angular GDE, and he loves using all kinds of technologies to build cool things that help teams build cool things!"
+  speaker_twitter_url: "https://twitter.com/phenomnominal"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_5: *FahadHeylaal
@@ -126,6 +137,7 @@ speakers:
   speaker_7: *MathildeBuenerd
   speaker_8: *MarcoIppolito
   speaker_9: *ArisMarkogiannakis
+  speaker_10: *CraigSpence
   
 
 
@@ -309,3 +321,24 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_9: *ArisMarkogiannakis
+
+
+      CraigsAmazingRustSpectacularBroughtToYouByRustEze:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: Craig's Amazing Rust Spectacular (brought to you by Rust-eze)"
+        talk_description: "Rust-eze is an American company owned by Dinoco. 
+        <br />It sells medicated bumper ointment for cars with rusty bumpers, to eradicate rust. 
+        <br />It was created by Rusty and Dusty Rust-eze and since then became recognized trademark in the United States.
+        <br />
+          Rust on the other hand is a multi-paradigm, general-purpose programming language. 
+          <br />Rust emphasizes performance, type safety, concurrency, and enforces memory safety. Rust is popular for systems programming but also offers high-level features!
+
+        It's all the rage in Radiator Springs, and becoming the hottest way to build tools that go faster than Lightning McQueen 🏎️. Let's explore the language from the perspective of front-end engineers, see how it compares to TypeScript, and how it might influence the future of front-end.
+        <br />
+        🏁 Ka-chow! 🏁"
+        talk_video_url:
+        speakers:
+          speaker_10: *CraigSpence
