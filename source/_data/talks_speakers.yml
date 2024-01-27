@@ -168,19 +168,18 @@ speaker_13: &LesleyCordero
 
 speakers:
   speaker_1: *AashimaAhuja
+  speaker_9: *ArisMarkogiannakis
+  speaker_10: *CraigSpence
+  speaker_12: *EileenFurstenau
   speaker_5: *FahadHeylaal
-  speaker_3: *MihaelaRoxanaGhidersa
+  speaker_13: *LesleyCordero
+  speaker_11: *LorenzoPieri
   speaker_2: *LucaDelPuppo
   speaker_4: *LucaMezzalira
   speaker_6: *MaurizioMangione
   speaker_7: *MathildeBuenerd
   speaker_8: *MarcoIppolito
-  speaker_9: *ArisMarkogiannakis
-  speaker_10: *CraigSpence
-  speaker_11: *LorenzoPieri
-  speaker_12: *EileenFurstenau
-  speaker_13: *LesleyCordero
-  
+  speaker_3: *MihaelaRoxanaGhidersa
 
 
 tracks:
