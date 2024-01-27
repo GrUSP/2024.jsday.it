@@ -68,12 +68,23 @@ speaker_5: &FahadHeylaal
   speaker_linkedin_url: "https://www.linkedin.com/in/fahad19/"
   is_mc: false
 
+speaker_6: &MaurizioMangione
+  speaker_in_speaker_lists: true
+  speaker_name: Maurizio Mangione
+  speaker_pic_filename: MaurizioMangione.png
+  speaker_role: "Head of Career Success @ Boolean"
+  speaker_bio: "Russian literature lover, wannabe writer, rock climber. Former Google Developers Expert and Microsoft MVP, founder of great communities."
+  speaker_twitter_url: "https://twitter.com/granze"
+  speaker_linkedin_url: "https://www.linkedin.com/in/granze/"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_5: *FahadHeylaal
   speaker_3: *MihaelaRoxanaGhidersa
   speaker_2: *LucaDelPuppo
   speaker_4: *LucaMezzalira
+  speaker_6: *MaurizioMangione
 
 
 tracks:
@@ -204,3 +215,16 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_5: *FahadHeylaal
+
+      IQuitWithTechAndYouShouldToo:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "I quit with tech and you should too"
+        talk_description: "After 20 years working as a developer, team leader, manager, and devrel, I decided to leave the tech industry. <br />
+        Looking back, it was the best decision I ever made in my career. <br />
+        You might want to consider doing the same, or at the very least, reframing your perspective on tech, roles, and company dynamics to avoid reaching a point of no return."
+        talk_video_url:
+        speakers:
+          speaker_6: *MaurizioMangione
