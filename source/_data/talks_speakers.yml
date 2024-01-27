@@ -103,6 +103,19 @@ speaker_8: &MarcoIppolito
   speaker_twitter_url: "https://twitter.com/satanacchio"
   is_mc: false
 
+
+speaker_9: &ArisMarkogiannakis
+  speaker_in_speaker_lists: true
+  speaker_name: Aris Markogiannakis
+  speaker_pic_filename: ArisMarkogiannakis.png
+  speaker_role: "Senior Tech Lead, CityJS Founder/Organiser"
+  speaker_bio: "Aris is a Senior Frontend Developer, a Lecturer and a community Leader in London (and the world), JavaScript Community organiser and the creator of CityJS Conference.
+  <br /> He has been teaching for the past 10 years at City, University of London and other institutions around London for the last couple years."
+  speaker_linkedin_url: "https://www.linkedin.com/in/aris-markogiannakis-95b2a5/"
+  speaker_github_url: "https://github.com/arismarko"
+  speaker_twitter_url: "https://twitter.com/arismarko"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_5: *FahadHeylaal
@@ -112,6 +125,7 @@ speakers:
   speaker_6: *MaurizioMangione
   speaker_7: *MathildeBuenerd
   speaker_8: *MarcoIppolito
+  speaker_9: *ArisMarkogiannakis
   
 
 
@@ -282,3 +296,16 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_8: *MarcoIppolito
+
+      MoFrontendsMoProblemsMoSolutions:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Mo Frontends Mo Problems Mo Solutions"
+        talk_description: "During the past one year I have been working on a project with Microfrontends using Turborepo deployed on Vercel for a client of Foolproof. 
+        <br />During that time we started this project,  Module federation wasn't supported for Vercel and we had to find another way to make it work! During this talk I am sharing all the PROBLEMS that we came through, how eventually you can come around them and how you can eventually get to an Anti-Micro-frontend Patterns, for example as you try to get rid of the Monolith you end up going back to the Monolith!  I will do a comparison with other solutions like Module Federation and different bundlers such as Vite, RSpack and explain the differences between all these! 
+        <br />I will also explain what are the overheads of running micro-frontends and the SOLUTIONS to ensure they run ok for your team."
+        talk_video_url:
+        speakers:
+          speaker_9: *ArisMarkogiannakis
