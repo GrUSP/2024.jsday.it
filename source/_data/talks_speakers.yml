@@ -90,6 +90,19 @@ speaker_7: &MathildeBuenerd
   speaker_linkedin_url: "https://www.linkedin.com/in/mathilde-buenerd/"
   is_mc: false
 
+speaker_8: &MarcoIppolito
+  speaker_in_speaker_lists: true
+  speaker_name: Marco Ippolito
+  speaker_pic_filename: MarcoIppolito.png
+  speaker_role: "Senior DX Engineer @ NearForm | Node.js core member"
+  speaker_bio: "Currently serving as a maintainer of Node.js, Fastify and Mercurius and member of Node.js security teams.
+  <br /> I'm a developer with years of experience in designing, developing and testing high scalability and distributed cloud applications.
+  <br /> I'm committed to contributing to open source projects and helping the Node.js community grow. "
+  speaker_linkedin_url: "https://www.linkedin.com/in/marcoippolito2021/"
+  speaker_github_url: "https://github.com/marco-ippolito"
+  speaker_twitter_url: "https://twitter.com/satanacchio"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_5: *FahadHeylaal
@@ -98,6 +111,8 @@ speakers:
   speaker_4: *LucaMezzalira
   speaker_6: *MaurizioMangione
   speaker_7: *MathildeBuenerd
+  speaker_8: *MarcoIppolito
+  
 
 
 tracks:
@@ -242,7 +257,7 @@ If so, this talk will reveal the behind the scene one of the most popular server
         speakers:
           speaker_6: *MaurizioMangione
 
-      IAccessibility:WhyYouShouldLearnAboutWCAG:
+      IAccessibilityWhyYouShouldLearnAboutWCAG:
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
@@ -254,3 +269,16 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_7: *MathildeBuenerd
+
+      AdvancedJavaScriptCodeSearchAbstractSyntaxTreeAnalysis:        
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "Advanced JavaScript code search: Abstract Syntax Tree analysis"
+        talk_description: "Searching for specific pieces of code in large JavaScript files can be a daunting task, especially when dealing with complex projects, as developers,
+        <br /> we’ve all experienced the frustration of sifting through hundreds or even thousands of lines of code, trying to locate that elusive function or variable.
+        We’ll learn how to build a powerful code search tool using JavaScript Abstract Syntax Tree and a full text search engine."
+        talk_video_url:
+        speakers:
+          speaker_8: *MarcoIppolito
