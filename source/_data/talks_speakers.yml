@@ -152,6 +152,20 @@ speaker_12: &EileenFurstenau
   speaker_linkedin_url: "https://www.linkedin.com/in/eileen-fürstenau-profile/"
   is_mc: false
 
+
+speaker_13: &LesleyCordero
+  speaker_in_speaker_lists: true
+  speaker_name: Lesley Cordero
+  speaker_pic_filename: LesleyCordero.png
+  speaker_role: "Staff Software Engineer @ The New York Times"
+  speaker_bio: "Lesley Cordero is currently a Staff Software Engineer, Tech Lead at The New York Times.
+  <br />She has spent the majority of her career on edtech teams as an engineer, including Google for Education and other edtech startups.
+  <br />In her current role, she is focused on observability, shared platforms, and building excellent teams by setting reliability vision & strategy across The Times, improving our observability footprint, and cultivating culture that builds with the most vulnerable employees in mind first. 
+  <br />She shows care for others by holding them accountable to the best versions of themselves – and by buying them the occasional bubble tea. "
+  speaker_linkedin_url: "https://www.linkedin.com/in/lesleycordero/"
+  speaker_twitter_url: "https://twitter.com/clesleycode"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
   speaker_5: *FahadHeylaal
@@ -165,6 +179,7 @@ speakers:
   speaker_10: *CraigSpence
   speaker_11: *LorenzoPieri
   speaker_12: *EileenFurstenau
+  speaker_13: *LesleyCordero
   
 
 
@@ -401,3 +416,18 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_12: *EileenFurstenau
+
+      APlatformizedApproachToNode.jsDevelopment:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: "A Platformized Approach to Node.js Development"
+        talk_description: "In this talk, we'll define the challenges developers face when building Node.js applications, and how Platform Engineering can provide robust runtime experiences through best practices, shared tooling, and centralized support.
+          <br />
+          More specifically, we'll explore how creating shared standardized platforms helps maintain consistency and reliability across distributed systems, particularly those that have embraced Node.js as their primary runtime. By establishing a shared platform, platform engineers can ensure that all Node.js applications adhere to the same set of standards, simplifying management and maintenance.
+          <br />
+          We'll begin by covering key principles of Platform engineering, influenced by DevOps, and provide specific examples from my experiences developing shared platforms for Node.js developers."
+        talk_video_url:
+        speakers:
+          speaker_13: *LesleyCordero
