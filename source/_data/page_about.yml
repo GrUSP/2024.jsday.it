@@ -26,13 +26,13 @@ team:
       role: "GrUSP Founder &<br>Board<br>Member"
       pic_filename: "matteo_yellow.jpg"
     member_2:
-      name: "Alessandro 'Cirpo' Cinelli"
-      role: "Technical Committee"
-      pic_filename: "cirpo.jpg"
-    member_3:
       name: "Cristina Chesini"
       role: "Training Manager"
       pic_filename: "cristina_yellow.jpg"
+    member_3:
+      name: "Alessandro 'Cirpo' Cinelli"
+      role: "Technical Committee"
+      pic_filename: "cirpo_yellow.jpg"
     member_4:
       name: "Cesare D'Amico"
       role: "GrUSP Founder &<br>Board<br>Member"
