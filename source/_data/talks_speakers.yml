@@ -121,7 +121,7 @@ speaker_10: &CraigSpence
   speaker_in_speaker_lists: true
   speaker_name: Craig Spence
   speaker_pic_filename: CraigSpence.png
-  speaker_role: "dork @ phenomnomnominal"
+  speaker_role: "Architect @ HeroDevs"
   speaker_bio: "Craig is a Software Engineer from New Zealand, currently travelling the world, freelancing, teaching and consulting! 
   <br />He's an Angular GDE, and he loves using all kinds of technologies to build cool things that help teams build cool things!"
   speaker_twitter_url: "https://twitter.com/phenomnominal"
