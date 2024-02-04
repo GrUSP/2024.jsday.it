@@ -173,7 +173,6 @@ speaker_14: &MarcoCedaro
   speaker_role: "Engineering Director @ Photobox / Albelli"
   speaker_bio: "Webmaster before it was cool, pixel pusher, JavaScript-something, conference organiser, father of two, but mostly known for yelling at clouds."
   speaker_linkedin_url: "http://www.linkedin.com/in/cedmax"
-  speaker_twitter_url: "https://twitter.com/clesleycode"
   speaker_github_url: "https://github.com/cedmax"
   is_mc: false
 
