@@ -166,15 +166,15 @@ speaker_13: &LesleyCordero
   speaker_twitter_url: "https://twitter.com/clesleycode"
   is_mc: false
 
-speaker_14: &MarcoCedaro
-  speaker_in_speaker_lists: true
-  speaker_name: Marco Cedaro
-  speaker_pic_filename: MarcoCedaro.png
-  speaker_role: "Engineering Director @ Photobox / Albelli"
-  speaker_bio: "Webmaster before it was cool, pixel pusher, JavaScript-something, conference organiser, father of two, but mostly known for yelling at clouds."
-  speaker_linkedin_url: "http://www.linkedin.com/in/cedmax"
-  speaker_github_url: "https://github.com/cedmax"
-  is_mc: false
+# speaker_14: &MarcoCedaro
+#   speaker_in_speaker_lists: true
+#   speaker_name: Marco Cedaro
+#   speaker_pic_filename: MarcoCedaro.png
+#   speaker_role: "Engineering Director @ Photobox / Albelli"
+#   speaker_bio: "Webmaster before it was cool, pixel pusher, JavaScript-something, conference organiser, father of two, but mostly known for yelling at clouds."
+#   speaker_linkedin_url: "http://www.linkedin.com/in/cedmax"
+#   speaker_github_url: "https://github.com/cedmax"
+#   is_mc: false
 
 speaker_15: &SabrinaJodexnis
   speaker_in_speaker_lists: true
@@ -197,7 +197,7 @@ speakers:
   speaker_11: *LorenzoPieri
   speaker_2: *LucaDelPuppo
   speaker_4: *LucaMezzalira
-  speaker_14: *MarcoCedaro
+  # speaker_14: *MarcoCedaro
   speaker_8: *MarcoIppolito
   speaker_7: *MathildeBuenerd
   speaker_6: *MaurizioMangione
@@ -400,19 +400,19 @@ If so, this talk will reveal the behind the scene one of the most popular server
         speakers:
           speaker_4: *LucaMezzalira
 
-      DoWeNeedIt:
-        item_type: "talk"
-        track: *track_1
-        # start_datetime: 2022-05-19T10:25+02:00
-        # end_datetime: 2022-05-19T11:05+02:00
-        talk_title: "Do we need it?"
-        talk_description: "For the past decade, Javascriptland has been flourishing, and we had the privilege to learn how to work with an ever evolving landscape of tools, frameworks and practices. 
-             <br />But there's an obvious dark side to it, and it's not only the FOMO on the new shiny thing, but also an actual organizational cost associated to it. 
-            <br />
-          This talk analyzes the costs of tech decisions, not in a \"budget sheet\" sort of way, but building a narrative that touches on team and company impact of tech choices."
-        talk_video_url:
-        speakers:
-          speaker_14: *MarcoCedaro
+      # DoWeNeedIt:
+      #   item_type: "talk"
+      #   track: *track_1
+      #   # start_datetime: 2022-05-19T10:25+02:00
+      #   # end_datetime: 2022-05-19T11:05+02:00
+      #   talk_title: "Do we need it?"
+      #   talk_description: "For the past decade, Javascriptland has been flourishing, and we had the privilege to learn how to work with an ever evolving landscape of tools, frameworks and practices. 
+      #        <br />But there's an obvious dark side to it, and it's not only the FOMO on the new shiny thing, but also an actual organizational cost associated to it. 
+      #       <br />
+      #     This talk analyzes the costs of tech decisions, not in a \"budget sheet\" sort of way, but building a narrative that touches on team and company impact of tech choices."
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_14: *MarcoCedaro
 
       AdvancedJavaScriptCodeSearchAbstractSyntaxTreeAnalysis:
         item_type: "talk"
