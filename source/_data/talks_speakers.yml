@@ -170,7 +170,7 @@ speaker_14: &MarcoCedaro
   speaker_in_speaker_lists: true
   speaker_name: Marco Cedaro
   speaker_pic_filename: MarcoCedaro.png
-  speaker_role: "Engineering Director @ Photobox / Albelli"
+  speaker_role: "Engineering Director @ Storio Group"
   speaker_bio: "Webmaster before it was cool, pixel pusher, JavaScript-something, conference organiser, father of two, but mostly known for yelling at clouds."
   speaker_linkedin_url: "http://www.linkedin.com/in/cedmax"
   speaker_github_url: "https://github.com/cedmax"
