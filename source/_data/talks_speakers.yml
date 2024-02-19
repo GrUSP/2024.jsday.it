@@ -158,8 +158,8 @@ speaker_13: &LizzieSiegle
   speaker_name: Lizzie Siegle
   speaker_pic_filename: LizzieSiegle.png
   speaker_role: "Developer Evangelist @ Twilio"
-  speaker_bio: "Lizzie serves developers in the Bay Area and beyond on Twilio's developer evangelism team and holds a Bachelor's degree in Computer Science from Bryn Mawr. 
-  <br />She likes Swift, JavaScript, and working with AI, but has been seen writing Python and Haskell as well. 
+  speaker_bio: "Lizzie serves developers in the Bay Area and beyond on Twilio's developer evangelism team and holds a Bachelor's degree in Computer Science from Bryn Mawr.
+  <br />She likes Swift, JavaScript, and working with AI, but has been seen writing Python and Haskell as well.
   < br />When not organizing or attending hackathons and meetups, she enjoys tennis, ping pong, and all things Disney."
   speaker_linkedin_url: "https://linkedin.com/in/elsiegle"
   speaker_twitter_url: "http://twitter.com/lizziepika"
@@ -180,14 +180,26 @@ speaker_15: &SabrinaJodexnis
   speaker_name: Sabrina Jodexnis
   speaker_pic_filename: SabrinaJodexnis.png
   speaker_role: "GDE Web Technologies / Web Developer / Accessibility / WTM Ambassador"
-  speaker_bio: "Sabrina is a GDE in Web technologies focusing on web maps and accessibility. Her big dream is for every application to be accessible one day. 
+  speaker_bio: "Sabrina is a GDE in Web technologies focusing on web maps and accessibility. Her big dream is for every application to be accessible one day.
    <br />She is also the co-founder of a tech network called the Social Developers Club."
   speaker_linkedin_url: "https://www.linkedin.com/in/sabrina-jodexnis/"
   speaker_twitter_url: "https://twitter.com/binicodes"
   is_mc: false
 
+speaker_16: &GonzaloBeviglia
+  speaker_in_speaker_lists: true
+  speaker_name: Gonzalo	Beviglia
+  speaker_pic_filename: GonzaloBeviglia.png
+  speaker_role: "Staff Software Engineer @ Box"
+  speaker_bio: "Leading high-impact technical initiatives, engineering huge-scale applications, and aiding in cross-team collaboration has given me first-hand experience across the whole software development lifecycle.
+  I believe in radical candor and mentoring individuals to build high performance teams. I bring proactivity, disruption, and agile leadership to the table. Driving continuous improvement at scale is my north star.
+  I'm an all around player in love with great product companies."
+  speaker_linkedin_url: "https://www.linkedin.com/in/gonzalobeviglia/"
+  is_mc: false
+
 speakers:
   speaker_1: *AashimaAhuja
+  speaker_16: *GonzaloBeviglia
   speaker_9: *ArisMarkogiannakis
   speaker_10: *CraigSpence
   speaker_12: *EileenFurstenau
@@ -310,7 +322,7 @@ days:
         talk_video_url:
         speakers:
           speaker_10: *CraigSpence
-      
+
       Next.jsUnleashedOptimizingWebVitalsForSuperiorUserExperience:
         item_type: "talk"
         track: *track_1
@@ -337,15 +349,15 @@ days:
         speakers:
           speaker_5: *FahadHeylaal
 
-      
-      UnderstandingLangChainAgentsAndToolsWithTwilio(orWithSMS):        
+
+      UnderstandingLangChainAgentsAndToolsWithTwilio(orWithSMS):
         item_type: "talk"
         track: *track_1
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Understanding LangChain Agents and Tools with Twilio (or with SMS)"
-        talk_description: "With LangChain, developers “chain” together different LLM components to create more advanced use cases around LLMs. 
-        <br /> Agents use LLMs to decide what actions should be taken. 
+        talk_description: "With LangChain, developers “chain” together different LLM components to create more advanced use cases around LLMs.
+        <br /> Agents use LLMs to decide what actions should be taken.
         <br />Get introduced to LangChain about what you can do with Agents, Tools, and communication APIs!"
         talk_video_url:
         speakers:
@@ -383,7 +395,7 @@ days:
         speakers:
           speaker_2: *LucaDelPuppo
 
-   
+
 
       AWSLambdaPerformanceTuning:
         item_type: "talk"
@@ -403,8 +415,8 @@ If so, this talk will reveal the behind the scene one of the most popular server
         # start_datetime: 2022-05-19T10:25+02:00
         # end_datetime: 2022-05-19T11:05+02:00
         talk_title: "Do we need it?"
-        talk_description: "For the past decade, Javascriptland has been flourishing, and we had the privilege to learn how to work with an ever evolving landscape of tools, frameworks and practices. 
-             <br />But there's an obvious dark side to it, and it's not only the FOMO on the new shiny thing, but also an actual organizational cost associated to it. 
+        talk_description: "For the past decade, Javascriptland has been flourishing, and we had the privilege to learn how to work with an ever evolving landscape of tools, frameworks and practices.
+             <br />But there's an obvious dark side to it, and it's not only the FOMO on the new shiny thing, but also an actual organizational cost associated to it.
             <br />
           This talk analyzes the costs of tech decisions, not in a \"budget sheet\" sort of way, but building a narrative that touches on team and company impact of tech choices."
         talk_video_url:
@@ -479,3 +491,16 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_15: *SabrinaJodexnis
+
+      NavigatingYourCareerasaJavascriptDevelopery:
+        item_type: "talk"
+        track: *track_1
+        # start_datetime: 2022-05-19T10:25+02:00
+        # end_datetime: 2022-05-19T11:05+02:00
+        talk_title: “Navigating Your Career as a Javascript Developer"
+        talk_description: "Join us for this talk where we will explore the different career levels and paths for software engineers and share some practical tips and insights on how to grow your skills, impact, and visibility. Whether you want to specialize or generalize, lead, or code, this talk will help you discover the best way to achieve your career goals. Get ready to take your career to the next level!"
+        talk_video_url:
+        speakers:
+          speaker_16: *GonzaloBeviglia
+
+

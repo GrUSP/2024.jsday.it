@@ -91,7 +91,7 @@ conference:
   speakers_visible: true
   speakers_title: "speaker"
   mcs_title: "MC"
-  speaker_count_text: "Speakers announced so far, more to come... stay tuned!"
+  speaker_count_text: "The complete lineup!"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Topics and themes"
@@ -130,7 +130,7 @@ conference:
   vimeo_base_url: "https://vimeo.com/showcase/"
   vimeo_url_suffix: "/embed"
   #   (embed YouTube playlist: prendere l'ID della lista dall'URL, la parte dopo '&list=', e metterla qui sotto)
-  youtube_playlist_id: "PLWK9j6ps_unkBs_RYqpOOpAJHeB-wfzsV&si=sqKJofHa4gbJii2h"
+  youtube_playlist_id: "PLWK9j6ps_unnrdGTfnmjQ4T65o0jAyrVO&si=-2-LLefTu4UqGFzG"
   #   (embed Vimeo showcase: prendere l'ID dello showcase e metterla qui sotto)
   vimeo_showcase_id: "8639312"
   # Location section in home page. set the first parameter to true to make it appear in home page, false means hidden

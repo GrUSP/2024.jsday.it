@@ -9,11 +9,11 @@ diamond:
     name: "Bryntum"
     logo_filename: "bryntum.svg"
     site_url: "https://bryntum.com/"
-# platinum:
-#   sponsor1:
-#     name: ""
-#     logo_filename: ""
-#     site_url: ""
+platinum:
+  sponsor1:
+    name: "Umana"
+    logo_filename: "umana.png"
+    site_url: "https://www.umana.it/per-le-persone/aree-specialistiche/information-communication-technology/"
 gold:
   sponsor2:
     name: "workwave"
@@ -28,7 +28,24 @@ silver:
     name: "Daruma"
     logo_filename: "daruma.svg"
     site_url: "http://www.darumahq.com/"
+  sponsor3:
+    name: "Facile"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
+  sponsor4:
+    name: "Madisoft"
+    logo_filename: "madisoft.svg"
+    site_url: "https://labs.madisoft.it/"
+  sponsor5:
+    name: "WeRoad"
+    logo_filename: "weroad.svg"
+    site_url: "https://career.weroad.travel/"
+
 bronze:
+  sponsor1:
+    name: "Spreaker"
+    logo_filename: "spreaker.svg"
+    site_url: "https://www.spreaker.com/?utm_source=logo&utm_medium=referral&utm_campaign=grusp"
   sponsor2:
     name: "Stickermule"
     logo_filename: "stickermule.svg"
