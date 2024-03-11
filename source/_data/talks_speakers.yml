@@ -433,7 +433,7 @@ days:
         item_type: "service"
         start_datetime: 2024-04-12T17:35+02:00
         end_datetime: 2024-04-12T17:45+02:00
-        talk_title: "See you next year!"
+        talk_title: "Closing by GrUSP - See you next year!"
 
       AIIntegrationForDevelopersLeveragingChatGPTAndCopilotInYourLongTermProjects:
         item_type: "talk"
