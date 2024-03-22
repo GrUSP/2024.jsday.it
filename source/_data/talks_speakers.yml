@@ -153,17 +153,17 @@ speaker_12: &EileenFurstenau
   is_mc: false
 
 
-speaker_13: &LizzieSiegle
-  speaker_in_speaker_lists: true
-  speaker_name: Lizzie Siegle
-  speaker_pic_filename: LizzieSiegle.png
-  speaker_role: "Developer Evangelist @ Twilio"
-  speaker_bio: "Lizzie serves developers in the Bay Area and beyond on Twilio's developer evangelism team and holds a Bachelor's degree in Computer Science from Bryn Mawr.
-  <br />She likes Swift, JavaScript, and working with AI, but has been seen writing Python and Haskell as well.
-  < br />When not organizing or attending hackathons and meetups, she enjoys tennis, ping pong, and all things Disney."
-  speaker_linkedin_url: "https://linkedin.com/in/elsiegle"
-  speaker_twitter_url: "http://twitter.com/lizziepika"
-  is_mc: false
+# speaker_13: &LizzieSiegle
+#   speaker_in_speaker_lists: true
+#   speaker_name: Lizzie Siegle
+#   speaker_pic_filename: LizzieSiegle.png
+#   speaker_role: "Developer Evangelist @ Twilio"
+#   speaker_bio: "Lizzie serves developers in the Bay Area and beyond on Twilio's developer evangelism team and holds a Bachelor's degree in Computer Science from Bryn Mawr.
+#   <br />She likes Swift, JavaScript, and working with AI, but has been seen writing Python and Haskell as well.
+#   < br />When not organizing or attending hackathons and meetups, she enjoys tennis, ping pong, and all things Disney."
+#   speaker_linkedin_url: "https://linkedin.com/in/elsiegle"
+#   speaker_twitter_url: "http://twitter.com/lizziepika"
+#   is_mc: false
 
 speaker_14: &MarcoCedaro
   speaker_in_speaker_lists: true
@@ -204,7 +204,7 @@ speakers:
   speaker_10: *CraigSpence
   speaker_12: *EileenFurstenau
   speaker_5: *FahadHeylaal
-  speaker_13: *LizzieSiegle
+#  speaker_13: *LizzieSiegle
   speaker_11: *LorenzoPieri
   speaker_2: *LucaDelPuppo
   speaker_4: *LucaMezzalira
@@ -246,7 +246,7 @@ days:
         start_datetime: 2024-04-11T09:35+02:00
         end_datetime: 2024-04-11T09:50+02:00
         talk_title: "Opening by GrUSP"
-    
+
       coffee-morning:
         item_type: "service"
         start_datetime: 2024-04-11T11:10+02:00
@@ -261,7 +261,7 @@ days:
         end_datetime: 2024-04-11T14:20+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      
+
       # Lightning talks
       lightning:
         item_type: "service"
@@ -275,7 +275,7 @@ days:
         end_datetime: 2024-04-11T16:40+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
-        
+
       # closing day 1
       closing:
         item_type: "service"
@@ -398,7 +398,7 @@ days:
         start_datetime: 2024-04-12T09:15+02:00
         end_datetime: 2024-04-12T09:30+02:00
         talk_title: "Opening by GrUSP"
-    
+
       coffee-morning:
         item_type: "service"
         start_datetime: 2024-04-12T10:50+02:00
@@ -413,7 +413,7 @@ days:
         end_datetime: 2024-04-12T13:55+02:00
         talk_title: "Lunch break"
         service_icon: "cutlery"
-      
+
       # Lightning talks
       lightning:
         item_type: "service"
@@ -427,7 +427,7 @@ days:
         end_datetime: 2024-04-12T16:15+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
-        
+
       # closing day 2
       closing:
         item_type: "service"
@@ -462,18 +462,18 @@ If so, this talk will reveal the behind the scene one of the most popular server
         speakers:
           speaker_4: *LucaMezzalira
 
-      UnderstandingLangChainAgentsAndToolsWithTwilio(orWithSMS):
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-04-12T11:20+02:00
-        end_datetime: 2024-04-12T12:00+02:00
-        talk_title: "Understanding LangChain Agents and Tools with Twilio (or with SMS)"
-        talk_description: "With LangChain, developers “chain” together different LLM components to create more advanced use cases around LLMs.
-        <br /> Agents use LLMs to decide what actions should be taken.
-        <br />Get introduced to LangChain about what you can do with Agents, Tools, and communication APIs!"
-        talk_video_url:
-        speakers:
-          speaker_13: *LizzieSiegle
+      # UnderstandingLangChainAgentsAndToolsWithTwilio(orWithSMS):
+      #   item_type: "talk"
+      #   track: *track_1
+      #   start_datetime: 2024-04-12T11:20+02:00
+      #   end_datetime: 2024-04-12T12:00+02:00
+      #   talk_title: "Understanding LangChain Agents and Tools with Twilio (or with SMS)"
+      #   talk_description: "With LangChain, developers “chain” together different LLM components to create more advanced use cases around LLMs.
+      #   <br /> Agents use LLMs to decide what actions should be taken.
+      #   <br />Get introduced to LangChain about what you can do with Agents, Tools, and communication APIs!"
+      #   talk_video_url:
+      #   speakers:
+      #     speaker_13: *LizzieSiegle
 
       CraigsAmazingRustSpectacularBroughtToYouByRustEze:
         item_type: "talk"

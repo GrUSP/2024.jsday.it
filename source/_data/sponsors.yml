@@ -15,6 +15,11 @@ platinum:
     logo_filename: "umana.png"
     site_url: "https://www.umana.it/per-le-persone/aree-specialistiche/information-communication-technology/"
 gold:
+  sponsor1:
+    name: "beliven"
+    logo_filename: "beliven.svg"
+    site_url: "https://beliven.com/"
+
   sponsor2:
     name: "workwave"
     logo_filename: "workwave.svg"
