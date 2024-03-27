@@ -204,7 +204,6 @@ speakers:
   speaker_10: *CraigSpence
   speaker_12: *EileenFurstenau
   speaker_5: *FahadHeylaal
-#  speaker_13: *LizzieSiegle
   speaker_11: *LorenzoPieri
   speaker_2: *LucaDelPuppo
   speaker_4: *LucaMezzalira
@@ -461,25 +460,27 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_4: *LucaMezzalira
-
-      # UnderstandingLangChainAgentsAndToolsWithTwilio(orWithSMS):
-      #   item_type: "talk"
-      #   track: *track_1
-      #   start_datetime: 2024-04-12T11:20+02:00
-      #   end_datetime: 2024-04-12T12:00+02:00
-      #   talk_title: "Understanding LangChain Agents and Tools with Twilio (or with SMS)"
-      #   talk_description: "With LangChain, developers “chain” together different LLM components to create more advanced use cases around LLMs.
-      #   <br /> Agents use LLMs to decide what actions should be taken.
-      #   <br />Get introduced to LangChain about what you can do with Agents, Tools, and communication APIs!"
-      #   talk_video_url:
-      #   speakers:
-      #     speaker_13: *LizzieSiegle
-
-      CraigsAmazingRustSpectacularBroughtToYouByRustEze:
+          
+      PANELBeyondCode:NavigatingTheSoftwareDeveloperRoleEvolution:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-04-12T12:00+02:00
         end_datetime: 2024-04-12T12:40+02:00
+        talk_title: "Beyond Code: navigating the software developer role evolution"
+        talk_description: "Software development is an ever evolving craft. <br /> The underlying logic thinking might not have shifted along the past few years, but everything else around it did: practices, technologies, levels of abstractions.
+        <br />In this panel we are going to interrogate ourselves about what’s coming up, with a pool of talented individuals who could contribute to the conversation with insightful experiences."
+        talk_video_url:
+        speakers:
+          speaker_14: *MarcoCedaro
+          speaker_4: *LucaMezzalira
+          speaker_3: *MihaelaRoxanaGhidersa
+          speaker_7: *MathildeBuenerd
+
+      CraigsAmazingRustSpectacularBroughtToYouByRustEze:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-04-12T11:20+02:00
+        end_datetime: 2024-04-12T12:00+02:00
         talk_title: "Craig's Amazing Rust Spectacular (brought to you by Rust-eze)"
         talk_description: "Rust-eze is an American company owned by Dinoco.
         <br />It sells medicated bumper ointment for cars with rusty bumpers, to eradicate rust.
