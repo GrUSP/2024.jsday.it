@@ -282,18 +282,43 @@ days:
         end_datetime: 2024-04-11T18:10+02:00
         talk_title: "See you tomorrow!"
 
-      PerformanceWinsWithReact18:
+      NavigatingYourCareerasaJavascriptDevelopery:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-04-11T09:50+02:00
+        end_datetime: 2024-04-11T10:30+02:00
+        talk_title: "Navigating Your Career as a Javascript Developer"
+        talk_description: "Join us for this talk where we will explore the different career levels and paths for software engineers and share some practical tips and insights on how to grow your skills, impact, and visibility. Whether you want to specialize or generalize, lead, or code, this talk will help you discover the best way to achieve your career goals. Get ready to take your career to the next level!"
+        talk_video_url:
+        speakers:
+          speaker_16: *GonzaloBeviglia
+
+      IAccessibilityWhyYouShouldLearnAboutWCAG:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-04-11T10:30+02:00
         end_datetime: 2024-04-11T11:10+02:00
-        talk_title: "Performance wins with React 18"
-        talk_description: "React 18! Concurrent features! You might’ve already tried the new APIs like useTransition, or you might’ve just heard of them. But do you know how you can improve your application performance by using React 18 concurrency features?
-<br />The talk will focus on improving app performance using React 18 concurrent features.
-<br />I will go through multiple code examples and live demos to demonstrate the performance benefits."
+        talk_title: "Accessibility: Why You Should Learn About WCAG"
+        talk_description: "Despite being around since 1999, WCAG remains unfamiliar to many developers. We rely on documentation for nearly all aspects of our work, yet accessibility is often overlooked.
+        <br />However, it's important to recognize that WCAG, despite appearing complex, is simply another standard.
+        <br />In this talk, we will go over the fundamental concepts of WCAG, and how they can be leveraged to design and develop a more inclusive web."
         talk_video_url:
         speakers:
-          speaker_1: *AashimaAhuja
+          speaker_7: *MathildeBuenerd
+
+      IQuitWithTechAndYouShouldToo:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-04-11T11:40+02:00
+        end_datetime: 2024-04-11T12:20+02:00
+        talk_title: "I quit with tech and you should too"
+        talk_description: "After 20 years working as a developer, team leader, manager, and devrel, I decided to leave the tech industry. <br />
+        Looking back, it was the best decision I ever made in my career. <br />
+        You might want to consider doing the same, or at the very least, reframing your perspective on tech, roles, and company dynamics to avoid reaching a point of no return."
+        talk_video_url:
+        speakers:
+          speaker_6: *MaurizioMangione
+
 
       FeatureManagementForYourJavaScriptApplications:
         item_type: "talk"
@@ -323,49 +348,37 @@ days:
         speakers:
           speaker_2: *LucaDelPuppo
 
-      IAccessibilityWhyYouShouldLearnAboutWCAG:
+      PerformanceWinsWithReact18:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-04-11T15:30+02:00
         end_datetime: 2024-04-11T16:10+02:00
-        talk_title: "Accessibility: Why You Should Learn About WCAG"
-        talk_description: "Despite being around since 1999, WCAG remains unfamiliar to many developers. We rely on documentation for nearly all aspects of our work, yet accessibility is often overlooked.
-        <br />However, it's important to recognize that WCAG, despite appearing complex, is simply another standard.
-        <br />In this talk, we will go over the fundamental concepts of WCAG, and how they can be leveraged to design and develop a more inclusive web."
+        talk_title: "Performance wins with React 18"
+        talk_description: "React 18! Concurrent features! You might’ve already tried the new APIs like useTransition, or you might’ve just heard of them. But do you know how you can improve your application performance by using React 18 concurrency features?
+<br />The talk will focus on improving app performance using React 18 concurrent features.
+<br />I will go through multiple code examples and live demos to demonstrate the performance benefits."
         talk_video_url:
         speakers:
-          speaker_7: *MathildeBuenerd
+          speaker_1: *AashimaAhuja
 
-
-      IQuitWithTechAndYouShouldToo:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-04-11T11:40+02:00
-        end_datetime: 2024-04-11T12:20+02:00
-        talk_title: "I quit with tech and you should too"
-        talk_description: "After 20 years working as a developer, team leader, manager, and devrel, I decided to leave the tech industry. <br />
-        Looking back, it was the best decision I ever made in my career. <br />
-        You might want to consider doing the same, or at the very least, reframing your perspective on tech, roles, and company dynamics to avoid reaching a point of no return."
-        talk_video_url:
-        speakers:
-          speaker_6: *MaurizioMangione
-
-      NavigatingYourCareerasaJavascriptDevelopery:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-04-11T09:50+02:00
-        end_datetime: 2024-04-11T10:30+02:00
-        talk_title: “Navigating Your Career as a Javascript Developer"
-        talk_description: "Join us for this talk where we will explore the different career levels and paths for software engineers and share some practical tips and insights on how to grow your skills, impact, and visibility. Whether you want to specialize or generalize, lead, or code, this talk will help you discover the best way to achieve your career goals. Get ready to take your career to the next level!"
-        talk_video_url:
-        speakers:
-          speaker_16: *GonzaloBeviglia
-
-      AddingAccessibilitymadeItWorseButWhy:
+      MoFrontendsMoProblemsMoSolutions:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-04-11T16:40+02:00
         end_datetime: 2024-04-11T17:20+02:00
+        talk_title: "Mo Frontends Mo Problems Mo Solutions"
+        talk_description: "During the past one year I have been working on a project with Microfrontends using Turborepo deployed on Vercel for a client of Foolproof.
+        <br />During that time we started this project,  Module federation wasn't supported for Vercel and we had to find another way to make it work! During this talk I am sharing all the PROBLEMS that we came through, how eventually you can come around them and how you can eventually get to an Anti-Micro-frontend Patterns, for example as you try to get rid of the Monolith you end up going back to the Monolith!  I will do a comparison with other solutions like Module Federation and different bundlers such as Vite, RSpack and explain the differences between all these!
+        <br />I will also explain what are the overheads of running micro-frontends and the SOLUTIONS to ensure they run ok for your team."
+        talk_video_url:
+        speakers:
+          speaker_9: *ArisMarkogiannakis
+
+      AddingAccessibilitymadeItWorseButWhy:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-04-11T17:20+02:00
+        end_datetime: 2024-04-11T18:00+02:00
         talk_title: “Adding accessibility” made it worse - but why?"
         talk_description: "Accessibility is becoming a significant topic in the next year, as US and European laws are forcing a lot of industry fields to adjust their websites to become overall accessible.
         <br /> However, product improvements are always first, and features must be released, so let’s add some accessibility in the end, right? <br /> <br />
@@ -374,18 +387,6 @@ days:
         speakers:
           speaker_15: *SabrinaJodexnis
 
-      MoFrontendsMoProblemsMoSolutions:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-04-11T17:20+02:00
-        end_datetime: 2024-04-11T18:00+02:00
-        talk_title: "Mo Frontends Mo Problems Mo Solutions"
-        talk_description: "During the past one year I have been working on a project with Microfrontends using Turborepo deployed on Vercel for a client of Foolproof.
-        <br />During that time we started this project,  Module federation wasn't supported for Vercel and we had to find another way to make it work! During this talk I am sharing all the PROBLEMS that we came through, how eventually you can come around them and how you can eventually get to an Anti-Micro-frontend Patterns, for example as you try to get rid of the Monolith you end up going back to the Monolith!  I will do a comparison with other solutions like Module Federation and different bundlers such as Vite, RSpack and explain the differences between all these!
-        <br />I will also explain what are the overheads of running micro-frontends and the SOLUTIONS to ensure they run ok for your team."
-        talk_video_url:
-        speakers:
-          speaker_9: *ArisMarkogiannakis
 
   day_2:
     date: 2024-04-12T09:35+02:00
@@ -460,21 +461,7 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_4: *LucaMezzalira
-          
-      PANELBeyondCode:NavigatingTheSoftwareDeveloperRoleEvolution:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-04-12T12:00+02:00
-        end_datetime: 2024-04-12T12:40+02:00
-        talk_title: "Beyond Code: navigating the software developer role evolution"
-        talk_description: "Software development is an ever evolving craft. <br /> The underlying logic thinking might not have shifted along the past few years, but everything else around it did: practices, technologies, levels of abstractions.
-        <br />In this panel we are going to interrogate ourselves about what’s coming up, with a pool of talented individuals who could contribute to the conversation with insightful experiences."
-        talk_video_url:
-        speakers:
-          speaker_14: *MarcoCedaro
-          speaker_4: *LucaMezzalira
-          speaker_3: *MihaelaRoxanaGhidersa
-          speaker_7: *MathildeBuenerd
+
 
       CraigsAmazingRustSpectacularBroughtToYouByRustEze:
         item_type: "talk"
@@ -496,33 +483,35 @@ If so, this talk will reveal the behind the scene one of the most popular server
         speakers:
           speaker_10: *CraigSpence
 
-
-      DoWeNeedIt:
+      PANELBeyondCode:NavigatingTheSoftwareDeveloperRoleEvolution:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2024-04-12T16:55+02:00
-        end_datetime: 2024-04-12T17:35+02:00
-        talk_title: "Do we need it?"
-        talk_description: "For the past decade, Javascriptland has been flourishing, and we had the privilege to learn how to work with an ever evolving landscape of tools, frameworks and practices.
-             <br />But there's an obvious dark side to it, and it's not only the FOMO on the new shiny thing, but also an actual organizational cost associated to it.
-            <br />
-          This talk analyzes the costs of tech decisions, not in a \"budget sheet\" sort of way, but building a narrative that touches on team and company impact of tech choices."
+        start_datetime: 2024-04-12T12:00+02:00
+        end_datetime: 2024-04-12T12:40+02:00
+        talk_title: "Beyond Code: navigating the software developer role evolution"
+        talk_description: "Software development is an ever evolving craft. <br /> The underlying logic thinking might not have shifted along the past few years, but everything else around it did: practices, technologies, levels of abstractions.
+        <br />In this panel we are going to interrogate ourselves about what’s coming up, with a pool of talented individuals who could contribute to the conversation with insightful experiences."
         talk_video_url:
         speakers:
           speaker_14: *MarcoCedaro
+          speaker_4: *LucaMezzalira
+          speaker_3: *MihaelaRoxanaGhidersa
+          speaker_7: *MathildeBuenerd
 
-      AdvancedJavaScriptCodeSearchAbstractSyntaxTreeAnalysis:
+      Next.jsUnleashedOptimizingWebVitalsForSuperiorUserExperience:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2024-04-12T16:15+02:00
-        end_datetime: 2024-04-12T16:55+02:00
-        talk_title: "Advanced JavaScript code search: Abstract Syntax Tree analysis"
-        talk_description: "Searching for specific pieces of code in large JavaScript files can be a daunting task, especially when dealing with complex projects, as developers,
-        <br /> we’ve all experienced the frustration of sifting through hundreds or even thousands of lines of code, trying to locate that elusive function or variable.
-        We’ll learn how to build a powerful code search tool using JavaScript Abstract Syntax Tree and a full text search engine."
+        start_datetime: 2024-04-12T14:25+02:00
+        end_datetime: 2024-04-12T15:05+02:00
+        talk_title: "Next.js Unleashed: Optimizing Web Vitals for superior User Experience"
+        talk_description: "This talk focuses on Next.js, the hyped JavaScript framework developed by Vercel.
+        <br />Specifically, I address how Next.js features such as Image Optimization and Dynamic Imports impact practical applications. To do this, I measure the web vitals of a sample application and optimize them using Next.js features.
+        By this, we will find out of what specific benefits individual optimizations in our new favorite frontend framework have and what we should focus on.
+        <br />
+        Come & join if you want to gain practical insights and actionable strategies for maximizing website performance and user engagement through the lens of Next.js and Web Vitals!"
         talk_video_url:
         speakers:
-          speaker_8: *MarcoIppolito
+          speaker_12: *EileenFurstenau
 
       TheEventLoopFairytale:
         item_type: "talk"
@@ -539,17 +528,31 @@ If so, this talk will reveal the behind the scene one of the most popular server
         speakers:
           speaker_11: *LorenzoPieri
 
-      Next.jsUnleashedOptimizingWebVitalsForSuperiorUserExperience:
+      AdvancedJavaScriptCodeSearchAbstractSyntaxTreeAnalysis:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2024-04-12T14:25+02:00
-        end_datetime: 2024-04-12T15:05+02:00
-        talk_title: "Next.js Unleashed: Optimizing Web Vitals for superior User Experience"
-        talk_description: "This talk focuses on Next.js, the hyped JavaScript framework developed by Vercel.
-        <br />Specifically, I address how Next.js features such as Image Optimization and Dynamic Imports impact practical applications. To do this, I measure the web vitals of a sample application and optimize them using Next.js features.
-        By this, we will find out of what specific benefits individual optimizations in our new favorite frontend framework have and what we should focus on.
-        <br />
-        Come & join if you want to gain practical insights and actionable strategies for maximizing website performance and user engagement through the lens of Next.js and Web Vitals!"
+        start_datetime: 2024-04-12T16:15+02:00
+        end_datetime: 2024-04-12T16:55+02:00
+        talk_title: "Advanced JavaScript code search: Abstract Syntax Tree analysis"
+        talk_description: "Searching for specific pieces of code in large JavaScript files can be a daunting task, especially when dealing with complex projects, as developers,
+        <br /> we’ve all experienced the frustration of sifting through hundreds or even thousands of lines of code, trying to locate that elusive function or variable.
+        We’ll learn how to build a powerful code search tool using JavaScript Abstract Syntax Tree and a full text search engine."
         talk_video_url:
         speakers:
-          speaker_12: *EileenFurstenau
+          speaker_8: *MarcoIppolito
+
+      DoWeNeedIt:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-04-12T16:55+02:00
+        end_datetime: 2024-04-12T17:35+02:00
+        talk_title: "Do we need it?"
+        talk_description: "For the past decade, Javascriptland has been flourishing, and we had the privilege to learn how to work with an ever evolving landscape of tools, frameworks and practices.
+             <br />But there's an obvious dark side to it, and it's not only the FOMO on the new shiny thing, but also an actual organizational cost associated to it.
+            <br />
+          This talk analyzes the costs of tech decisions, not in a \"budget sheet\" sort of way, but building a narrative that touches on team and company impact of tech choices."
+        talk_video_url:
+        speakers:
+          speaker_14: *MarcoCedaro
+
+
