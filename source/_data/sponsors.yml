@@ -41,10 +41,10 @@ silver:
     name: "HeroDevs"
     logo_filename: "herodevs.svg"
     site_url: "https://www.herodevs.com/"
-  # sponsor5:
-  #   name: "Indigo Labs"
-  #   logo_filename: "indigo.svg"
-  #   site_url: ""
+  sponsor5:
+    name: "Indigo Labs"
+    logo_filename: "indigolabs.svg"
+    site_url: "https://indigolabstech.com/"
   sponsor6:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
