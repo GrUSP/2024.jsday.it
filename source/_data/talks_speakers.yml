@@ -282,16 +282,17 @@ days:
         end_datetime: 2024-04-11T18:10+02:00
         talk_title: "See you tomorrow!"
 
-      NavigatingYourCareerasaJavascriptDevelopery:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-04-11T09:50+02:00
-        end_datetime: 2024-04-11T10:30+02:00
-        talk_title: "Navigating Your Career as a Javascript Developer"
-        talk_description: "Join us for this talk where we will explore the different career levels and paths for software engineers and share some practical tips and insights on how to grow your skills, impact, and visibility. Whether you want to specialize or generalize, lead, or code, this talk will help you discover the best way to achieve your career goals. Get ready to take your career to the next level!"
-        talk_video_url:
-        speakers:
-          speaker_16: *GonzaloBeviglia
+      AWSLambdaPerformanceTuning:
+              item_type: "talk"
+              track: *track_1
+              start_datetime: 2024-04-11T09:50+02:00
+              end_datetime: 2024-04-11T10:30+02:00
+              talk_title: "AWS Lambda performance tuning"
+              talk_description: "Have you ever wonder how to get the best out of your Lambda functions? <br />
+      If so, this talk will reveal the behind the scene one of the most popular serverless service and you will be exposed to a step by step guidance for optimizing your functions with live examples."
+              talk_video_url:
+              speakers:
+                speaker_4: *LucaMezzalira
 
       IAccessibilityWhyYouShouldLearnAboutWCAG:
         item_type: "talk"
@@ -351,8 +352,8 @@ days:
       PerformanceWinsWithReact18:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2024-04-11T15:30+02:00
-        end_datetime: 2024-04-11T16:10+02:00
+        start_datetime: 2024-04-11T16:40+02:00
+        end_datetime: 2024-04-11T17:20+02:00
         talk_title: "Performance wins with React 18"
         talk_description: "React 18! Concurrent features! You might’ve already tried the new APIs like useTransition, or you might’ve just heard of them. But do you know how you can improve your application performance by using React 18 concurrency features?
 <br />The talk will focus on improving app performance using React 18 concurrent features.
@@ -364,8 +365,8 @@ days:
       MoFrontendsMoProblemsMoSolutions:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2024-04-11T16:40+02:00
-        end_datetime: 2024-04-11T17:20+02:00
+        start_datetime: 2024-04-11T15:30+02:00
+        end_datetime: 2024-04-11T16:10+02:00
         talk_title: "Mo Frontends Mo Problems Mo Solutions"
         talk_description: "During the past one year I have been working on a project with Microfrontends using Turborepo deployed on Vercel for a client of Foolproof.
         <br />During that time we started this project,  Module federation wasn't supported for Vercel and we had to find another way to make it work! During this talk I am sharing all the PROBLEMS that we came through, how eventually you can come around them and how you can eventually get to an Anti-Micro-frontend Patterns, for example as you try to get rid of the Monolith you end up going back to the Monolith!  I will do a comparison with other solutions like Module Federation and different bundlers such as Vite, RSpack and explain the differences between all these!
@@ -450,19 +451,17 @@ days:
         speakers:
           speaker_3: *MihaelaRoxanaGhidersa
 
-      AWSLambdaPerformanceTuning:
+      NavigatingYourCareerasaJavascriptDevelopery:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-04-12T10:10+02:00
         end_datetime: 2024-04-12T10:50+02:00
-        talk_title: "AWS Lambda performance tuning"
-        talk_description: "Have you ever wonder how to get the best out of your Lambda functions? <br />
-If so, this talk will reveal the behind the scene one of the most popular serverless service and you will be exposed to a step by step guidance for optimizing your functions with live examples."
+        talk_title: "Navigating Your Career as a Javascript Developer"
+        talk_description: "Join us for this talk where we will explore the different career levels and paths for software engineers and share some practical tips and insights on how to grow your skills, impact, and visibility. Whether you want to specialize or generalize, lead, or code, this talk will help you discover the best way to achieve your career goals. Get ready to take your career to the next level!"
         talk_video_url:
         speakers:
-          speaker_4: *LucaMezzalira
-
-
+          speaker_16: *GonzaloBeviglia
+     
       CraigsAmazingRustSpectacularBroughtToYouByRustEze:
         item_type: "talk"
         track: *track_1
@@ -554,5 +553,3 @@ If so, this talk will reveal the behind the scene one of the most popular server
         talk_video_url:
         speakers:
           speaker_14: *MarcoCedaro
-
-
