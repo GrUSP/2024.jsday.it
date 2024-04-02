@@ -239,6 +239,12 @@ days:
     title: "Day 1"
     talks:
     # services
+      check-in:
+        item_type: "service"
+        start_datetime: 2024-04-11T08:45+02:00
+        end_datetime: 2024-04-11T09:35+02:00
+        talk_title: "Registration, collect your badge and swags!"
+
       opening:
         item_type: "service"
         start_datetime: 2024-04-11T09:35+02:00
