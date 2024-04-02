@@ -152,20 +152,7 @@ speaker_12: &EileenFurstenau
   speaker_linkedin_url: "https://www.linkedin.com/in/eileen-fürstenau-profile/"
   is_mc: false
 
-
-# speaker_13: &LizzieSiegle
-#   speaker_in_speaker_lists: true
-#   speaker_name: Lizzie Siegle
-#   speaker_pic_filename: LizzieSiegle.png
-#   speaker_role: "Developer Evangelist @ Twilio"
-#   speaker_bio: "Lizzie serves developers in the Bay Area and beyond on Twilio's developer evangelism team and holds a Bachelor's degree in Computer Science from Bryn Mawr.
-#   <br />She likes Swift, JavaScript, and working with AI, but has been seen writing Python and Haskell as well.
-#   < br />When not organizing or attending hackathons and meetups, she enjoys tennis, ping pong, and all things Disney."
-#   speaker_linkedin_url: "https://linkedin.com/in/elsiegle"
-#   speaker_twitter_url: "http://twitter.com/lizziepika"
-#   is_mc: false
-
-speaker_14: &MarcoCedaro
+speaker_13: &MarcoCedaro
   speaker_in_speaker_lists: true
   speaker_name: Marco Cedaro
   speaker_pic_filename: MarcoCedaro.png
@@ -175,7 +162,7 @@ speaker_14: &MarcoCedaro
   speaker_github_url: "https://github.com/cedmax"
   is_mc: false
 
-speaker_15: &SabrinaJodexnis
+speaker_14: &SabrinaJodexnis
   speaker_in_speaker_lists: true
   speaker_name: Sabrina Jodexnis
   speaker_pic_filename: SabrinaJodexnis.png
@@ -186,7 +173,7 @@ speaker_15: &SabrinaJodexnis
   speaker_twitter_url: "https://twitter.com/binicodes"
   is_mc: false
 
-speaker_16: &GonzaloBeviglia
+speaker_15: &GonzaloBeviglia
   speaker_in_speaker_lists: true
   speaker_name: Gonzalo	Beviglia
   speaker_pic_filename: GonzaloBeviglia.png
@@ -196,6 +183,17 @@ speaker_16: &GonzaloBeviglia
   I'm an all around player in love with great product companies."
   speaker_linkedin_url: "https://www.linkedin.com/in/gonzalobeviglia/"
   is_mc: false
+
+speaker_16: &matteoguidotto
+  speaker_in_speaker_lists: true
+  speaker_name: Matteo Guidotto
+  speaker_pic_filename: matteo-guidotto.png
+  speaker_role: Master of Ceremony
+  speaker_bio:
+  speaker_twitter:
+  speaker_github:
+  speaker_linkedin:
+  is_mc: true
 
 speakers:
   speaker_1: *AashimaAhuja
@@ -213,6 +211,7 @@ speakers:
   speaker_6: *MaurizioMangione
   speaker_3: *MihaelaRoxanaGhidersa
   speaker_15: *SabrinaJodexnis
+  speaker_17: *matteoguidotto
 
 
 tracks:
@@ -349,6 +348,20 @@ days:
         speakers:
           speaker_2: *LucaDelPuppo
 
+      MoFrontendsMoProblemsMoSolutions:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2024-04-11T15:30+02:00
+        end_datetime: 2024-04-11T16:10+02:00
+        talk_title: "Mo Frontends Mo Problems Mo Solutions"
+        talk_description: "During the past one year I have been working on a project with Microfrontends using Turborepo deployed on Vercel for a client of Foolproof.
+        <br />During that time we started this project,  Module federation wasn't supported for Vercel and we had to find another way to make it work! During this talk I am sharing all the PROBLEMS that we came through, how eventually you can come around them and how you can eventually get to an Anti-Micro-frontend Patterns, for example as you try to get rid of the Monolith you end up going back to the Monolith!  I will do a comparison with other solutions like Module Federation and different bundlers such as Vite, RSpack and explain the differences between all these!
+        <br />I will also explain what are the overheads of running micro-frontends and the SOLUTIONS to ensure they run ok for your team."
+        talk_video_url:
+        speakers:
+          speaker_9: *ArisMarkogiannakis
+
+
       PerformanceWinsWithReact18:
         item_type: "talk"
         track: *track_1
@@ -362,18 +375,7 @@ days:
         speakers:
           speaker_1: *AashimaAhuja
 
-      MoFrontendsMoProblemsMoSolutions:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2024-04-11T15:30+02:00
-        end_datetime: 2024-04-11T16:10+02:00
-        talk_title: "Mo Frontends Mo Problems Mo Solutions"
-        talk_description: "During the past one year I have been working on a project with Microfrontends using Turborepo deployed on Vercel for a client of Foolproof.
-        <br />During that time we started this project,  Module federation wasn't supported for Vercel and we had to find another way to make it work! During this talk I am sharing all the PROBLEMS that we came through, how eventually you can come around them and how you can eventually get to an Anti-Micro-frontend Patterns, for example as you try to get rid of the Monolith you end up going back to the Monolith!  I will do a comparison with other solutions like Module Federation and different bundlers such as Vite, RSpack and explain the differences between all these!
-        <br />I will also explain what are the overheads of running micro-frontends and the SOLUTIONS to ensure they run ok for your team."
-        talk_video_url:
-        speakers:
-          speaker_9: *ArisMarkogiannakis
+
 
       AddingAccessibilitymadeItWorseButWhy:
         item_type: "talk"
@@ -461,7 +463,7 @@ days:
         talk_video_url:
         speakers:
           speaker_16: *GonzaloBeviglia
-     
+
       CraigsAmazingRustSpectacularBroughtToYouByRustEze:
         item_type: "talk"
         track: *track_1
