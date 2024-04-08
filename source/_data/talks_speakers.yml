@@ -162,15 +162,14 @@ speaker_13: &MarcoCedaro
   speaker_github_url: "https://github.com/cedmax"
   is_mc: false
 
-speaker_14: &SabrinaJodexnis
+speaker_14: &EnricoGiacomazzi
   speaker_in_speaker_lists: true
-  speaker_name: Sabrina Jodexnis
-  speaker_pic_filename: SabrinaJodexnis.png
-  speaker_role: "GDE Web Technologies / Web Developer / Accessibility / WTM Ambassador"
-  speaker_bio: "Sabrina is a GDE in Web technologies focusing on web maps and accessibility. Her big dream is for every application to be accessible one day.
-   <br />She is also the co-founder of a tech network called the Social Developers Club."
-  speaker_linkedin_url: "https://www.linkedin.com/in/sabrina-jodexnis/"
-  speaker_twitter_url: "https://twitter.com/binicodes"
+  speaker_name: Enrico Giacomazzi
+  speaker_pic_filename: EnricoGiacomazzi.png
+  speaker_role: "Freelance Full Stack Developer"
+  speaker_bio: "Freelance fullstack consultant, Trainer, Computer science teacher, Golfer, Scuba diver."
+  speaker_linkedin_url: "https://www.linkedin.com/in/giacomazzienrico"
+  speaker_github_url: "https://github.com/enricogiacomazzi"
   is_mc: false
 
 speaker_15: &GonzaloBeviglia
@@ -197,21 +196,21 @@ speaker_16: &matteoguidotto
 
 speakers:
   speaker_1: *AashimaAhuja
-  speaker_16: *GonzaloBeviglia
-  speaker_9: *ArisMarkogiannakis
-  speaker_10: *CraigSpence
-  speaker_12: *EileenFurstenau
-  speaker_5: *FahadHeylaal
-  speaker_11: *LorenzoPieri
-  speaker_2: *LucaDelPuppo
-  speaker_4: *LucaMezzalira
-  speaker_14: *MarcoCedaro
-  speaker_8: *MarcoIppolito
-  speaker_7: *MathildeBuenerd
-  speaker_6: *MaurizioMangione
-  speaker_3: *MihaelaRoxanaGhidersa
-  speaker_15: *SabrinaJodexnis
-  speaker_17: *matteoguidotto
+  speaker_2: *GonzaloBeviglia
+  speaker_3: *MathildeBuenerd
+  speaker_4: *MarcoCedaro
+  speaker_5: *LucaDelPuppo
+  speaker_6: *EileenFurstenau
+  speaker_7: *MihaelaRoxanaGhidersa
+  speaker_8: *EnricoGiacomazzi
+  speaker_9: *MarcoIppolito
+  speaker_10: *FahadHeylaal
+  speaker_11: *MaurizioMangione
+  speaker_12: *ArisMarkogiannakis
+  speaker_13: *LucaMezzalira
+  speaker_14: *LorenzoPieri
+  speaker_15: *CraigSpence
+  speaker_16: *matteoguidotto
 
 
 tracks:
@@ -383,18 +382,17 @@ days:
 
 
 
-      AddingAccessibilitymadeItWorseButWhy:
+      GoodBadUglyNodejsStreams:
         item_type: "talk"
         track: *track_1
         start_datetime: 2024-04-11T17:20+02:00
         end_datetime: 2024-04-11T18:00+02:00
-        talk_title: “Adding accessibility” made it worse - but why?"
-        talk_description: "Accessibility is becoming a significant topic in the next year, as US and European laws are forcing a lot of industry fields to adjust their websites to become overall accessible.
-        <br /> However, product improvements are always first, and features must be released, so let’s add some accessibility in the end, right? <br /> <br />
-          Totally no! Let’s go through the process of what it takes to make a website more accessible. We will understand certain pitfalls and typical mistakes developers make when working on accessibility and see how to improve accessibility without starting our whole project from scratch."
+        talk_title: The good, the bad and the ugly of nodejs streams
+        talk_description: "Nodejs is a powerfull ecosystem that allow us to do everything we want easily, but, when we need to work with large amount of data (for example files manipulation) we have to fight with streams.
+In this talk we will see what is a stream, how it's works and how to manage it without headache using the latest features of nodejs."
         talk_video_url:
         speakers:
-          speaker_15: *SabrinaJodexnis
+          speaker_15: *EnricoGiacomazzi
 
 
   day_2:
